@@ -1,0 +1,27 @@
+local Materials = {("Silverwood Bark Powder"),("Metastone")}
+local currentchoice = nil
+print ("Welcome to Potion Maker!")
+print ("Created by Ashton Poczynek")
+print ("Copyright 2017-2020 Exurbla Studios")
+function getId(Choice)
+  print (Materials[Choice])
+end
+function convertStringToIndex(String)
+if String == ("1") then
+  currentchoice = 1
+else
+  
+  end
+  
+  
+  end
+function Gameloop()
+    print ("Choose")
+   Option1 = io.read()
+    
+    convertStringToIndex(Option1)
+    getId(currentchoice)
+    
+    
+end
+Gameloop()
