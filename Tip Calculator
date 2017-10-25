@@ -1,0 +1,6 @@
+local cost = nil
+local tip = nil
+print ("What was the cost of the meal?")
+cost = io.read()
+tip = cost*0.10
+print ("You should give a tip of "..tip.." Dollars")
